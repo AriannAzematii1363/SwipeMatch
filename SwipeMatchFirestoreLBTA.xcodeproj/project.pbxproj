@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F032AFFB21C5651B0042D144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F032AFFA21C5651B0042D144 /* AppDelegate.swift */; };
-		F032AFFD21C5651B0042D144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F032AFFC21C5651B0042D144 /* ViewController.swift */; };
+		F032AFFD21C5651B0042D144 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F032AFFC21C5651B0042D144 /* HomeController.swift */; };
 		F032B00021C5651B0042D144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F032AFFE21C5651B0042D144 /* Main.storyboard */; };
 		F032B00221C5651C0042D144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F032B00121C5651C0042D144 /* Assets.xcassets */; };
 		F032B00521C5651C0042D144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F032B00321C5651C0042D144 /* LaunchScreen.storyboard */; };
@@ -16,12 +16,15 @@
 		F032B01121C56EF50042D144 /* HomeBottomControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F032B01021C56EF50042D144 /* HomeBottomControlsStackView.swift */; };
 		F032B01321C57FF60042D144 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F032B01221C57FF60042D144 /* TopNavigationStackView.swift */; };
 		F032B01521C58F810042D144 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F032B01421C58F810042D144 /* CardView.swift */; };
+		F0841A6F21C5CA7600EB77E5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0841A6E21C5CA7600EB77E5 /* User.swift */; };
+		F0841A7321C5DB4600EB77E5 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0841A7221C5DB4600EB77E5 /* CardViewModel.swift */; };
+		F0841A7521C5EE5200EB77E5 /* Adviser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0841A7421C5EE5200EB77E5 /* Adviser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F032AFF721C5651B0042D144 /* SwipeMatchFirestoreLBTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMatchFirestoreLBTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F032AFFA21C5651B0042D144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F032AFFC21C5651B0042D144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F032AFFC21C5651B0042D144 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		F032AFFF21C5651B0042D144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F032B00121C5651C0042D144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F032B00421C5651C0042D144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +33,9 @@
 		F032B01021C56EF50042D144 /* HomeBottomControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlsStackView.swift; sourceTree = "<group>"; };
 		F032B01221C57FF60042D144 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
 		F032B01421C58F810042D144 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F0841A6E21C5CA7600EB77E5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F0841A7221C5DB4600EB77E5 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		F0841A7421C5EE5200EB77E5 /* Adviser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adviser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +68,12 @@
 		F032AFF921C5651B0042D144 /* SwipeMatchFirestoreLBTA */ = {
 			isa = PBXGroup;
 			children = (
+				F0841A7121C5DB3000EB77E5 /* ViewModels */,
+				F0841A6D21C5CA1F00EB77E5 /* Model */,
 				F032B00F21C56EBC0042D144 /* Views */,
+				F0841A7021C5DA9D00EB77E5 /* Controllers */,
 				F032B00C21C569AA0042D144 /* Extensions */,
 				F032AFFA21C5651B0042D144 /* AppDelegate.swift */,
-				F032AFFC21C5651B0042D144 /* ViewController.swift */,
 				F032AFFE21C5651B0042D144 /* Main.storyboard */,
 				F032B00121C5651C0042D144 /* Assets.xcassets */,
 				F032B00321C5651C0042D144 /* LaunchScreen.storyboard */,
@@ -90,6 +98,31 @@
 				F032B01421C58F810042D144 /* CardView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F0841A6D21C5CA1F00EB77E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0841A6E21C5CA7600EB77E5 /* User.swift */,
+				F0841A7421C5EE5200EB77E5 /* Adviser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0841A7021C5DA9D00EB77E5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F032AFFC21C5651B0042D144 /* HomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F0841A7121C5DB3000EB77E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F0841A7221C5DB4600EB77E5 /* CardViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,12 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F032AFFD21C5651B0042D144 /* ViewController.swift in Sources */,
+				F032AFFD21C5651B0042D144 /* HomeController.swift in Sources */,
 				F032B01121C56EF50042D144 /* HomeBottomControlsStackView.swift in Sources */,
 				F032AFFB21C5651B0042D144 /* AppDelegate.swift in Sources */,
 				F032B00E21C569F40042D144 /* Extensions+UIView.swift in Sources */,
+				F0841A7321C5DB4600EB77E5 /* CardViewModel.swift in Sources */,
 				F032B01521C58F810042D144 /* CardView.swift in Sources */,
+				F0841A7521C5EE5200EB77E5 /* Adviser.swift in Sources */,
 				F032B01321C57FF60042D144 /* TopNavigationStackView.swift in Sources */,
+				F0841A6F21C5CA7600EB77E5 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
